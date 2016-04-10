@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule . index.php [L]
+</IfModule>
+<IfModule !mod_rewrite.c>
+Error El modulo "mod_rewrite" es necesario para el correcto funcionamiento de SLIM. Por favor, activelo usando "sudo a2enmod rewrite && sudo restart apache2"
+</IfModule>
