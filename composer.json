@@ -1,4 +1,14 @@
 {
+    "name": "ojgarciab/marketpro-mejorado",
+    "description": "Market place",
+    "license": "GPL-3.0",
+    "keywords": ["market", "slim"],
+    "authors": [
+        {
+            "name": "Oscar Garcia",
+            "email": "oscar.github@linaresdigital.com"
+        }
+    ],
     "require": {
         "slim/slim": "^3.3",
         "slim/twig-view": "^2.1"
